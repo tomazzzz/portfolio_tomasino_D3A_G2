@@ -1,0 +1,24 @@
+body{
+  font-family:sans-serif;
+  color:white;
+}
+
+h1{
+  font-size:2em;
+  margin-bottom:1em;
+  font-family: sans-serif;
+}
+
+h2{
+  font-size:2em;
+  margin-bottom:0.65em;
+}
+
+figcaption{
+  font-size:0.75em;
+  font-style: italic;
+}
+
+figure{
+  margin-bottom:1em;
+}
