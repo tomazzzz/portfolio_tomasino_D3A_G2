@@ -1,5 +1,9 @@
 body{
-  background: #888888;
+  background: #E0E0E1;
+}
+
+p{
+  color: #AEAEFF;
 }
 
 section{
@@ -16,9 +20,17 @@ a{
 }
 
 li{
-background-color: black;
-border-radius: 10%;
+background-color: #AEAEFF;
 justify-content: space-around;
+}
+
+h1{
+  text-shadow: 0.1em 0.1em #AEAEFF;
+
+}
+
+h2{
+  text-shadow: 0.1em 0.1em #AEAEFF;
 }
 
 .projet-feature-container{
@@ -54,8 +66,15 @@ justify-content: space-around;
 }
 
 .title{
-  margin-left: 45px;
+  margin-top: 130px;
+  text-align: center;
 }
+
+#introduction{
+  text-align: center;
+  margin-top: 75px;
+}
+
 
 #main-menu{
 
@@ -70,7 +89,7 @@ justify-content: space-around;
 
 #main-menu:target{
   left:0;
-  background: rgba(255, 250, 127, 1);
+  background: #AEAEFF;
   z-index:999;
 
 
@@ -88,9 +107,9 @@ display: block;
 }
 
 .menu-toggle{
-  border: 1px solid #000;
+  border: 1px solid #AEAEFF;
   display: block;
-  border-radius: 6px;
+
   padding: 1em;
   max-width: 120px;
   text-align: center;
@@ -101,7 +120,7 @@ display: block;
   justify-content: center;
   align-items: center;
   background: black;
-  color: #fff;
+  color: #AEAEFF;
   height:32px;
   width: 32px;
   border-radius: 100%;
@@ -113,7 +132,7 @@ display: block;
 
 #main-menu:target + .backdrop{
   display: block;
-  background:rgba(250, 255, 177, 0.8);
+  background: solid-transprent;
   position: absolute;
   top:0;
   left:0;
@@ -144,5 +163,47 @@ display: block;
 }
 
 .img{
-  border-radius: 15%;
+border: 10px solid #AEAEFF;
+border-radius: 5%;
+}
+
+#about{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#me{
+max-height: 250px;
+  border-radius: 5%;
+  border: 10px solid #AEAEFF;
+  margin-top: 100px;
+}
+
+#contact{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#mail{
+  margin-top: 150px;
+  text-shadow: 0.1em 0.1em orange;
+}
+
+#phone{
+  margin-top: 75px;
+  text-shadow: 0.1em 0.1em orange;
+}
+
+#insta{
+  margin-top: 75px;
+  text-shadow: 0.1em 0.1em orange;
+}
+
+#instalogo{
+  max-width: 45px;
+  margin-top: 30px;
+}
+
+#footer{
+  text-align: center;
 }

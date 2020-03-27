@@ -6,12 +6,18 @@ body{
 h1{
   font-size:2em;
   margin-bottom:1em;
-  font-family: sans-serif;
+  font-family: "GothamUltra" ,sans-serif;
+}
+
+.sommaire{
+  font-size: 6em;
+  text-shadow: 0.1em 0.1em orange;
 }
 
 h2{
   font-size:2em;
   margin-bottom:0.65em;
+  font-family: "GothamBold" ,sans-serif;
 }
 
 figcaption{
@@ -21,4 +27,18 @@ figcaption{
 
 figure{
   margin-bottom:1em;
+}
+
+p{
+  font-family: "GothamLight" ,sans-serif;
+}
+
+li{
+  font-family: "GothamMedium", sans-serif;
+}
+
+#introduction{
+  font-family: "GothamMedium", sans-serif;
+  line-height: 2em;
+
 }
