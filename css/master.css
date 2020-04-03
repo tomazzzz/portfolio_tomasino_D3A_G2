@@ -8,12 +8,22 @@ p{
 
 section{
   border-bottom: #D2D2D2 2px solid;
-  min-height:98vh;
+
 }
 
 header{
 
 }
+
+#arrow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 5em;
+  margin-top: 25vh;
+
+}
+
 
 a{
   text-decoration: none;
@@ -22,6 +32,7 @@ a{
 li{
 background-color: #AEAEFF;
 justify-content: space-around;
+
 }
 
 h1{
@@ -69,10 +80,16 @@ justify-content: space-around;
   margin-top: 130px;
   text-align: center;
 }
+#intro{
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
 
 #introduction{
   text-align: center;
   margin-top: 75px;
+  margin-bottom: 30vh;
 }
 
 
@@ -166,6 +183,11 @@ display: block;
 border: 10px solid #AEAEFF;
 border-radius: 5%;
 }
+
+.projects{
+
+}
+
 
 #about{
   text-align: center;
