@@ -1,0 +1,25 @@
+h1{
+  font-size:2em;
+  margin-bottom:0.5em;
+  font-family: "GothamUltra" ,sans-serif;
+  text-shadow: 0.1em 0.1em #AEAEFF;
+  color: white;
+  text-align: center;
+}
+
+body{
+  background-color: #E0E0E1;
+}
+
+p{
+  font-size:1em;
+  margin-bottom:0.5em;
+  font-family: "GothamUltra" ,sans-serif;
+  text-shadow: 0.1em 0.1em #AEAEFF;
+  color: white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none; 
+}
