@@ -12,10 +12,16 @@ body{
 
 }
 
-img{
-  max-height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
+#myimages{
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive{
+  justify-content: center;
+  max-width: 100%;
+  height: auto;  
 }
 
 #return{
