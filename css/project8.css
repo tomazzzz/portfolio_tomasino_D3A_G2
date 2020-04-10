@@ -16,10 +16,16 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
-img{
-max-width: 30%;
+figure {
+display: block;
+flex-basis:450px;
+}
+
+figure img {
+  width: 100%;
 }
 
   #return{
