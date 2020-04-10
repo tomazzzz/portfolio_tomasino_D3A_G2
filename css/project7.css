@@ -20,7 +20,9 @@ body{
 
 }
 
-
+img{
+  width: 100%;
+}
 
   #return{
     font-size:2em;

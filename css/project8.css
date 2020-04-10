@@ -1,0 +1,36 @@
+h1{
+text-align: center;
+font-size:2em;
+margin-bottom:1em;
+font-family: "GothamUltra" ,sans-serif;
+text-shadow: 0.1em 0.1em #AEAEFF;
+color: white;
+}
+
+body{
+  background-color: #E0E0E1;}
+
+
+
+  #myimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+max-width: 30%;
+}
+
+  #return{
+    font-size:2em;
+    margin-bottom:0.5em;
+    font-family: "GothamUltra" ,sans-serif;
+    text-shadow: 0.1em 0.1em #AEAEFF;
+    color: white;
+    text-align: center;
+  }
+
+  a{
+    text-decoration:none;
+  }
